@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2024 by anonymous (http://jsbin.com/nutaluvazo/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Mi Página de Presentación</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('https://cdn.vectorstock.com/i/preview-1x/02/07/white-square-shape-abstract-technology-concept-vector-33380207.jpg');
+      background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la pantalla */
+      background-repeat: no-repeat; /* Evita que la imagen se repita */
+      background-attachment: fixed; /* Fija la imagen de fondo para que no se desplace con el contenido */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%;
+      max-width: 1200px;
+      background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+      padding: 50px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    .text-section {
+      flex: 1;
+      margin-right: 20px;
+    }
+    .img-sec img {
+      width: 300px; /* Ajusta el tamaño de la imagen según tus necesidades */
+      border-radius: 10px;
+      animation: neon 2s infinite;
+    }
+    @keyframes neon {
+      0% {
+        filter: drop-shadow(0 0 10px darkred);
+      }
+      25% {
+        filter: drop-shadow(0 0 10px gray);
+      }
+      50% {
+        filter: drop-shadow(0 0 10px black);
+      }
+      75% {
+        filter: drop-shadow(0 0 10px brown);
+      }
+      100% {
+        filter: drop-shadow(0 0 10px black);
+      }
+    }
+    .btn button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .btn button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="text-section">
+      <h1>Hi I'm ----------</h1>
+      <h3>Software Developer</h3>
+      <p>I'm a professional software developer. My main goal is to help
+      and satisfy local and global clients or companies with my 
+      knowledge in this field, providing different software solutions
+      according to global standards.</p>
+      
+      <div class="btn">
+        <a href="URL_DE_TU_CV.pdf" target="_blank">
+        <button>Download CV</button>
+      </div>
+    </div>
+    
+    <div class="img-sec">
+      <img src="https://th.bing.com/th/id/R.594595c5b7761f4d0d8558192c257aa7?rik=RN7lP2v%2bhAVTxA&riu=http%3a%2f%2fvgboxart.com%2fresources%2frender%2f12142_call-of-duty-advanced-warfare-prev.png&ehk=JpPVer4rfs022OCCK7pe20KGHKU0ehSbSdbj7ANCeMI%3d&risl=&pid=ImgRaw&r=0" alt="Image">
+    </div>
+  </div>
+</body>
+</html>
+
+
