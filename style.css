@@ -1,0 +1,74 @@
+body {
+    background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXdhNG5xaWxsdjBvZThnajRwazJmbXRxc3dxMjdnM3JqaWVtOXkxZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ofT5Ioy7noTLZYQi4/giphy.webp');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+    color: white; 
+}
+
+#gif {
+    display: none;
+    max-width: 100%; 
+    height: auto; 
+    border: 5px solid #ffffff; /* Borde blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff; /* Efecto neón */
+}
+
+#message {
+    display: none; /* Ocultar el mensaje inicialmente */
+    margin-top: 20px; /* Espacio entre el GIF y el mensaje */
+    text-align: center; /* Centrar el texto */
+    color: #ffffff; /* Color blanco */
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff; /* Efecto neón */
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    color: #ffffff; /* Color blanco */
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff; /* Efecto neón */
+}
+
+input[type="button"] {
+    margin-top: 20px; /* Espacio entre el botón y el título */
+    background-color: transparent; /* Fondo transparente */
+    border: 2px solid #ffffff; /* Borde blanco */
+    color: #ffffff; /* Color del texto blanco */
+    font-size: 16px; /* Tamaño de fuente */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff; /* Efecto neón */
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+input[type="button"]:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo al pasar el mouse */
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: rgba(0, 0, 0, 0.5); 
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    h1 {
+        font-size: 32px; 
+    }
+}
+
+@media (min-width: 1025px) {
+    h1 {
+        font-size: 40px;
+    }
+}
