@@ -14,41 +14,41 @@ body {
     display: none;
     max-width: 100%; 
     height: auto; 
-    border: 5px solid #ffffff; /* Borde blanco */
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff; /* Efecto neón */
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff;
 }
 
 #message {
-    display: none; /* Ocultar el mensaje inicialmente */
-    margin-top: 20px; /* Espacio entre el GIF y el mensaje */
-    text-align: center; /* Centrar el texto */
-    color: #ffffff; /* Color blanco */
-    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff; /* Efecto neón */
+    display: none;
+    margin-top: 20px;
+    text-align: center; 
+    color: #ffffff; 
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff;
 }
 
 h1 {
     position: absolute;
     top: 20px;
     text-align: center;
-    color: #ffffff; /* Color blanco */
-    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff; /* Efecto neón */
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff;
 }
 
 input[type="button"] {
-    margin-top: 20px; /* Espacio entre el botón y el título */
-    background-color: transparent; /* Fondo transparente */
-    border: 2px solid #ffffff; /* Borde blanco */
-    color: #ffffff; /* Color del texto blanco */
-    font-size: 16px; /* Tamaño de fuente */
-    padding: 10px 20px; /* Espaciado interno */
-    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
-    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff; /* Efecto neón */
-    transition: all 0.3s ease; /* Transición suave */
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff;
+    transition: all 0.3s ease;
 }
 
 input[type="button"]:hover {
-    background-color: rgba(255, 255, 255, 0.1); /* Fondo al pasar el mouse */
+    background-color: rgba(255, 255, 255, 0.1); 
 }
 
 @media (max-width: 600px) {
